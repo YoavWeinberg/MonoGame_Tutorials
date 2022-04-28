@@ -149,7 +149,7 @@ namespace Tutorial020.States
             continue;
           
           if (spriteA.Intersects(spriteB))
-            ((ICollidable)spriteA).OnCollide(spriteB);
+            ((ICollidable)spriteA).OnColide(spriteB);
         }
       }
 
